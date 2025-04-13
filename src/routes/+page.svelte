@@ -1,0 +1,73 @@
+<script>
+    import { goto } from "$app/navigation";
+    function next() {
+        goto("/about");
+    }
+    function previous() {
+        goto("http://localhost:5174/");
+    }
+    function linkedin() {
+        window.open(
+            "https://www.linkedin.com/in/guillaume-beaufort-0b1a4a1b7/",
+            "_blank",
+        );
+    }
+</script>
+
+<header class="flex justify-center align-items-start text-[3rem]">
+    <h1 class="bg-blue-200 rounded-2xl p-2 mt-5 mb-10 font-extrabold">
+        <u>Bienvenue sur mon Portfolio </u>
+    </h1>
+</header>
+<section class="flex flex-col">
+    <div class="flex justify-center items-center">
+        <!-- svelte-ignore a11y_no_static_element_interactions -->
+        <!-- svelte-ignore a11y_click_events_have_key_events -->
+        <div
+            class="photoprofil rounded-full w-1/10 h-1/10 mt-5 mb-10"
+            onclick={linkedin}
+            alt="Guillaume Beaufort LinkedIn"
+        >
+            <br /><br /><br /><br /><br /><br /><br /><br />
+        </div>
+    </div>
+    <div
+        class="flex justify-center items-center text-center text-[2rem] font-bold"
+    >
+        <p>
+            Bienvenue sur mon profile,<br /> je suis Guillaume Beaufort un Developpeur
+            FullStack en formation au CESI de brest.,
+        </p>
+    </div>
+</section>
+<footer class="flex justify-center align-items-end">
+    <div
+        class="flex flex-row text-center justify-center space-x-100 p-10 text-[2.5rem]"
+    >
+        <button
+            onclick={previous}
+            class="bg-red-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-red-700"
+        >
+            ← previous
+        </button>
+        <button
+            onclick={next}
+            class="bg-green-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-green-700"
+        >
+            next →
+        </button>
+    </div>
+</footer>
+
+<style>
+    .photoprofil {
+        background: url("https://media.licdn.com/dms/image/v2/D4D03AQF_N2UKIIZUrg/profile-displayphoto-shrink_800_800/B4DZPZIdIkHgAg-/0/1734514693126?e=1750291200&v=beta&t=uy0reay1cNdXeYPJtiRNYxV6z6nySdHMR4pkaZz74Zk");
+        background-size: cover;
+        background-position: center;
+    }
+    .photoprofil:hover {
+        background: url("https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1749686400&v=beta&t=yLR0Vlcq_i5T8596-RjRSVQMOOCNb9b9X7OshdnJjxE");
+        background-size: cover;
+        background-position: center;
+    }
+</style>
