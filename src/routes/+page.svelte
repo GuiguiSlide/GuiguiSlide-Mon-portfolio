@@ -4,7 +4,7 @@
         goto("/about");
     }
     function previous() {
-        goto("http://localhost:5174/");
+        goto("/");
     }
     function linkedin() {
         window.open(
@@ -52,7 +52,7 @@
         </button>
         <button
             onclick={next}
-            class="bg-green-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-green-700"
+            class="bg-green-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-green-700" 
         >
             next →
         </button>

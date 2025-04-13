@@ -1,50 +1,20 @@
 <script>
     import { goto } from "$app/navigation";
     function next() {
-        goto("/projects");
+        goto("/");
     }
     function previous() {
-        goto("/");
+        goto("/about");
     }
 </script>
 
 <header class="flex justify-center align-items-start text-[3rem]">
     <h1 class="bg-blue-200 rounded-2xl p-2 mt-5 mb-10 font-extrabold">
-        <u>Mes Compétences </u>
+        <u>Mes Projets </u>
     </h1>
 </header>
 <section class="flex flex-col">
     <div class="flex justify-center items-center flex-row">
-        <img
-            class="rounded-4rem w-[10rem] h-[10rem] mt-5 mb-10"
-            alt="html"
-            src="https://soltech.net/wp-content/uploads/2014/05/HTML5.webp"
-        />
-        <img
-            class="rounded-4rem w-[10rem] h-[10rem] pl-8 mt-5 mb-10"
-            alt="Css"
-            src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
-        />
-        <img
-            class="rounded-4rem w-[15rem] h-[10rem] mt-5 mb-10"
-            alt="JS"
-            src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo-500x313.png"
-        />
-        <img
-            class="rounded-4rem w-[10rem] h-[10rem] mt-5 mb-10"
-            alt="C"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png"
-        />
-        <img
-            class="rounded-4rem w-[10rem] h-[10rem] ml-10 mt-5 mb-10"
-            alt="Godot"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/2048px-Godot_icon.svg.png"
-        />
-        <img
-            class="rounded-full w-[10rem] h-[10rem] ml-10 mt-5 mb-10"
-            alt="tailwind"
-            src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png"
-        />
         <a href="https://github.com/GuiguiSlide" target="_blank">
             <img
                 class="rounded-full w-[10rem] h-[10rem] ml-5 mt-5 mb-10"
@@ -56,9 +26,24 @@
     <div
         class="flex justify-center items-center text-center text-[2rem] font-bold"
     >
-        <p>
-            sur cette pages vous pourrez decouvrir mes compétences<br />
-        </p>
+        <div class="flex flex-row p-5">
+            <ul class="pr-20 a">
+                Projets en Cours
+                <a href="https://www.curseforge.com/minecraft/modpacks/project-arena"><li class="font-normal text-start hover:underline">
+                    Modpack Minecraft sur le thème arène
+                </li></a>
+                <li class="font-normal text-start">
+                    Application mobile pour des recettes et des stocks
+                </li>
+            </ul>
+            <ul class="pl-20 a">
+                Projets Finits
+                <a href="https://github.com/GuiguiSlide/station_m-t-o"><li class="font-normal text-start hover:underline">Station météo</li></a>
+                <a href="https://github.com/GuiguiSlide/Untrustpilot/"><li class="font-normal text-start hover:underline">Site de sensibilisation sur la cybersécurité</li></a>
+                <a href="https://github.com/GuiguiSlide/cassebrique"><li class="font-normal text-start hover:underline" >Casse-brique en C</li></a>
+                <a href="https://github.com/GuiguiSlide/projet_gamejam_2025_cesi"> <li class="font-normal text-start hover:underline">Tower Defence GameJam 2025 au Cesi</li></a>
+            </ul>
+        </div>
     </div>
 </section>
 <footer class="flex justify-center align-items-end">
@@ -81,4 +66,7 @@
 </footer>
 
 <style>
+    ul.a {
+        list-style-type: circle;
+    }
 </style>
