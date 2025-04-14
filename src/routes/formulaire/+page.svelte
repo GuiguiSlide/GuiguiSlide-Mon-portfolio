@@ -18,12 +18,12 @@
         class="flex justify-center items-center text-center text-[2rem] font-bold"
     >
         <p>
-            sur cette pages vous pouvez me contacter <br />et avoir des
-            information a propo de moi
+            sur cette page vous pouvez me contacter <br />
+            et avoir des information a propo de moi
         </p>
     </div>
 </section>
-<footer class="flex justify-center align-items-end flex-col">
+<footer class="flex justify-center align-items-end flex-col font-bold">
     <div
         class="flex flex-row text-center justify-center space-x-100 p-10 text-[2.5rem]"
     >
@@ -49,15 +49,14 @@
         >
         <div class="flex flex-row">
             <label class="p-10 bg-green-300 rounded-tl-4xl text-center">
-                <u>↓Your email↓<br>
-                <input type="email" name="email" target="_blank" />
+                <u>↓votre email↓<br>
+                <textarea type="email" name="email" target="_blank" ></textarea>
             </label>
             <label class="p-10 bg-green-300 rounded-tr-4xl text-center">
-                <u>↓Your message↓<br>
+                <u>↓votre message↓<br>
                 <textarea name="message" target="_blank"></textarea>
             </label>
         </div>
-            <!-- your other form fields go here -->
             <button type="submit" class="rounded-b-4xl bg-amber-500 hover:bg-amber-200" target="_blank">Send</button>
         </form>
     </div>
