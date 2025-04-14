@@ -14,42 +14,77 @@
     </h1>
 </header>
 <section class="flex flex-col">
-    <div class="flex justify-center items-center flex-row">
+    <div class="flex justify-center items-center flex-row bg-orange-200 rounded-4xl">
         <img
-            class="rounded-4rem w-[10rem] h-[10rem] mt-5 mb-10"
+            class="rounded-4rem w-[5rem] h-[5rem] m-5 mt-5 mb-10"
             alt="html"
-            src="https://soltech.net/wp-content/uploads/2014/05/HTML5.webp"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
         />
         <img
-            class="rounded-4rem w-[10rem] h-[10rem] pl-8 mt-5 mb-10"
+            class="rounded-4rem w-[5rem] h-[5rem] m-5 mt-5 mb-10"
             alt="Css"
-            src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
         />
         <img
-            class="rounded-4rem w-[15rem] h-[10rem] mt-5 mb-10"
+            class="rounded-4rem w-[5rem] h-[5rem] m-5 mt-5 mb-10"
             alt="JS"
-            src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo-500x313.png"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
         />
         <img
-            class="rounded-4rem w-[10rem] h-[10rem] mt-5 mb-10"
+            class="rounded-4rem w-[5rem] h-[5rem] m-5 mt-5 mb-10"
             alt="C"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg"
         />
         <img
-            class="rounded-4rem w-[10rem] h-[10rem] ml-10 mt-5 mb-10"
+            class="rounded-4rem w-[5rem] h-[5rem] m-5 mt-5 mb-10"
+            alt="Svelte"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg"
+        />
+        <img
+            class="rounded-4rem w-[5rem] h-[5rem] m-5 mt-5 mb-10"
+            alt="android"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg"
+        />
+        <img
+            class="rounded-4rem w-[5rem] h-[5rem] m-5 mt-5 mb-10"
             alt="Godot"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/2048px-Godot_icon.svg.png"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/godot/godot-original-wordmark.svg"
         />
         <img
-            class="rounded-full w-[10rem] h-[10rem] ml-10 mt-5 mb-10"
+            class="rounded-full w-[5rem] h-[5rem] m-5 mt-5 mb-10"
             alt="tailwind"
-            src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+        />
+        <img
+            class="rounded-full w-[5rem] h-[5rem] m-5 mt-5 mb-10"
+            alt="SQL"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
+        />
+        <img
+            class="rounded-full w-[5rem] h-[5rem] m-5 mt-5 mb-10"
+            alt="linux"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+        />
+        <img
+            class="rounded-full w-[5rem] h-[5rem] m-5 mt-5 mb-10"
+            alt="flutter"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg"
+        />
+        <img
+            class="rounded-full w-[5rem] h-[5rem] m-5 mt-5 mb-10"
+            alt="powershell windows"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg"
+        />
+        <img
+            class="rounded-full w-[5rem] h-[5rem] m-5 mt-5 mb-10"
+            alt="PHP"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
         />
         <a href="https://github.com/GuiguiSlide" target="_blank">
             <img
-                class="rounded-full w-[10rem] h-[10rem] ml-5 mt-5 mb-10"
+                class="rounded-full w-[5rem] h-[5rem] m-5 mt-5 mb-10"
                 alt="github"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUjHyAiHyAjHiAiHiAgHB0UDRAAAAAaFReEgoPBwMDf39/v7++2trb///+xsLBzcnL+/v5qaGmWlZWMiosJAAAMAAUeGRtCP0Chn6BZV1hRT1A2MjPZ2dlfXV08OTpKSEjQz89lY2MXEhR9e3z19fXHxsbn5+cqJifS2g27AAABfElEQVR4AWVRBaLkUAjjGUzdfdz2/jdcoLLyU6PQlBAAwDBgg9nuZousBef47gMqgge7Fvgra53lEtIpipMkjk4BvZO03X7kgk+zAzmFo40xDovsb5QVMscpzWHNCcHxaHDntqfsB4rOqqx+4JdxivZ8Oud8X3pVjGeOLx3OxZXoWtywqzhxR6HSxJ2yBwE9e+/7Zw9PlXcjZmIkxeqpUyueLx2oBXD4Xn8iNTnd1ijhlF+E+Aq7rzJeOHEqAw/9LIE2gN11umSMoRc9jInU6b1ppYp66G/CPAWrTutpQyPFaw++l+CD8AcG72Jw5zj6CnXmcF9iqy3PyGE3bovoVBS124pqGcD/YvN4LfHILgFV+TdTkJd1IvusXkvxuW92bLWJwySLu/GeomhF3Wn2RY6ZCXQtsxGf6MUfVN576Xe/nsM7K7+JyFuLyfUJByh8OIU7M+rIbIM5Pj1OH2YaywI+M3ony1nL1lggRH13iLTayGqMAGA95eb22JjfaOUa5/ipzPYAAAAASUVORK5CYII="
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
             />
         </a>
     </div>
