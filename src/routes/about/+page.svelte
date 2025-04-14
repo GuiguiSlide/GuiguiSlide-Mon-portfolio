@@ -8,13 +8,15 @@
     }
 </script>
 
-<header class="flex justify-center align-items-start text-[3rem]">
+<header class="flex justify-center align-items-start text-[3rem] fade">
     <h1 class="bg-blue-200 rounded-2xl p-2 mt-5 mb-10 font-extrabold">
         <u>Mes Compétences </u>
     </h1>
 </header>
-<section class="flex flex-col">
-    <div class="flex justify-center items-center flex-row bg-orange-200 rounded-t-4xl mr-5 ml-5">
+<section class="flex flex-col fade">
+    <div
+        class="flex justify-center items-center flex-row bg-orange-200 rounded-t-4xl mr-5 ml-5"
+    >
         <img
             class="rounded-4rem w-[5rem] h-[5rem] m-5 mt-5 mb-10"
             alt="html"
@@ -96,7 +98,7 @@
         </p>
     </div>
 </section>
-<footer class="flex justify-center align-items-end">
+<footer class="flex justify-center align-items-end fade">
     <div
         class="flex flex-row text-center justify-center space-x-100 p-10 text-[2.5rem]"
     >
@@ -116,4 +118,31 @@
 </footer>
 
 <style>
+    .fade {
+        animation-duration: 3s;
+        animation-name: slide-in;
+    }
+    @keyframes slide-in {
+        from {
+            translate: 150vw 0;
+            scale: 200% 1;
+        }
+
+        to {
+            translate: 0 0;
+            scale: 100% 1;
+        }
+    }
+
+    @keyframes grow-shrink {
+        25%,
+        75% {
+            scale: 100%;
+        }
+
+        50% {
+            scale: 200%;
+            color: magenta;
+        }
+    }
 </style>

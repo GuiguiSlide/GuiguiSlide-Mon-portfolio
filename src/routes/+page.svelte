@@ -14,12 +14,12 @@
     }
 </script>
 
-<header class="flex justify-center align-items-start text-[3rem]">
-    <h1 class="bg-blue-200 rounded-2xl p-2 mt-5 mb-10 font-extrabold">
+<header class="flex justify-center align-items-start text-[3rem] fade">
+    <h1 class="bg-blue-200 rounded-2xl p-2 mt-5 mb-10 font-extrabold pl-20 pr-20">
         <u>Bienvenue sur mon Portfolio </u>
     </h1>
 </header>
-<section class="flex flex-col">
+<section class="flex flex-col fade">
     <div class="flex justify-center items-center">
         <!-- svelte-ignore a11y_no_static_element_interactions -->
         <!-- svelte-ignore a11y_click_events_have_key_events -->
@@ -32,7 +32,7 @@
         </div>
     </div>
     <div
-        class="flex justify-center items-center text-center text-[2rem] font-bold bg-[rgba(0,125,0,0.5)] pb-10 pt-10 rounded-4xl"
+        class="flex justify-center items-center text-center text-[2rem] font-bold bg-[rgba(219,100,199,0.5)] pb-10 pt-10 rounded-4xl ml-20 mr-20"
     >
         <p>
             Bienvenue sur mon profile,<br /> je suis Guillaume Beaufort un Developpeur
@@ -40,13 +40,13 @@
         </p>
     </div>
 </section>
-<footer class="flex justify-center align-items-end">
+<footer class="flex justify-center align-items-end fade">
     <div
         class="flex flex-row text-center justify-center space-x-100 p-10 text-[2.5rem]"
     >
         <button
             onclick={next}
-            class="bg-green-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-green-700" 
+            class="bg-green-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-green-700"
         >
             suivant→
         </button>
@@ -63,5 +63,32 @@
         background: url("https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1749686400&v=beta&t=yLR0Vlcq_i5T8596-RjRSVQMOOCNb9b9X7OshdnJjxE");
         background-size: cover;
         background-position: center;
+    }
+    .fade {
+        animation-duration: 3s;
+        animation-name: slide-in;
+    }
+    @keyframes slide-in {
+        from {
+            translate: 150vw 0;
+            scale: 200% 1;
+        }
+
+        to {
+            translate: 0 0;
+            scale: 100% 1;
+        }
+    }
+
+    @keyframes grow-shrink {
+        25%,
+        75% {
+            scale: 100%;
+        }
+
+        50% {
+            scale: 200%;
+            color: magenta;
+        }
     }
 </style>
