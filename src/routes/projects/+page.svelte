@@ -24,7 +24,7 @@
         </a>
     </div>
     <div
-        class="flex justify-center items-center text-center text-[2rem] font-bold"
+        class="flex justify-center items-center text-center text-[rem] font-bold"
     >
         <div class="flex flex-row p-5">
             <ul class="pr-20 a bg-[rgba(53,53,161,0.5)] rounded-l-4xl pl-15">
@@ -77,17 +77,17 @@
 </section>
 <footer class="flex justify-center align-items-end fade">
     <div
-        class="flex flex-row text-center justify-center space-x-100 p-10 text-[2.5rem]"
+        class="flex flex-row text-center justify-center p-10 text-[2.5rem]"
     >
         <button
             onclick={previous}
-            class="bg-red-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-red-700"
+            class="bg-red-900 rounded-4xl p-5 mt-30 min-w-[15rem] font-extrabold hover:bg-red-700"
         >
             ← précédent
         </button>
         <button
             onclick={next}
-            class="bg-green-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-green-700"
+            class="bg-green-900 rounded-4xl p-5 mt-30 min-w-[15rem] font-extrabold hover:bg-green-700"
         >
             suivant→
         </button>

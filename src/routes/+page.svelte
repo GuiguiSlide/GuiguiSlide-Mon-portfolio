@@ -14,7 +14,7 @@
     }
 </script>
 
-<header class="flex justify-center align-items-start text-[3rem] fade">
+<header class="flex justify-center align-items-start text-[150%] fade">
     <h1 class="bg-blue-200 rounded-2xl p-2 mt-5 mb-10 font-extrabold pl-20 pr-20">
         <u>Bienvenue sur mon Portfolio </u>
     </h1>
@@ -24,7 +24,7 @@
         <!-- svelte-ignore a11y_no_static_element_interactions -->
         <!-- svelte-ignore a11y_click_events_have_key_events -->
         <div
-            class="photoprofil rounded-full w-1/10 h-1/10 mt-5 mb-10"
+            class="photoprofil rounded-full w-[15rem] h-[15rem] m-10"
             onclick={linkedin}
             alt="Guillaume Beaufort LinkedIn"
         >
@@ -32,7 +32,7 @@
         </div>
     </div>
     <div
-        class="flex justify-center items-center text-center text-[2rem] font-bold bg-[rgba(219,100,199,0.5)] pb-10 pt-10 rounded-4xl ml-20 mr-20"
+        class="flex justify-center items-center text-center text-[150%] font-bold bg-[rgba(219,100,199,0.5)] pb-10 pt-10 rounded-4xl ml-20 mr-20"
     >
         <p>
             Bienvenue sur mon profile,<br /> je suis Guillaume Beaufort un Developpeur
@@ -42,11 +42,11 @@
 </section>
 <footer class="flex justify-center align-items-end fade">
     <div
-        class="flex flex-row text-center justify-center space-x-100 p-10 text-[2.5rem]"
+        class="flex flex-row text-center justify-center space-x-100 p-10 text-[150%]"
     >
         <button
             onclick={next}
-            class="bg-green-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-green-700"
+            class="bg-green-900 rounded-4xl p-5 mt-30 min-w-[150%] font-extrabold hover:bg-green-700"
         >
             suivant→
         </button>

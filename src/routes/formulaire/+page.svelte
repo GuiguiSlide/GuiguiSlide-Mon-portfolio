@@ -25,7 +25,7 @@
             </p>
         </div>
     </section>
-    <div class="flex flex-col items-center" target="_blank">
+    <div class="flex flex-col items-center justify-center" target="_blank">
         <form
             action="https://formspree.io/f/xnnpwebz"
             method="POST"
@@ -33,40 +33,40 @@
             target="_blank"
         >
             <div class="flex flex-row">
-                <label class="p-10 bg-green-300 rounded-tl-4xl text-center">
+                <label class="p-10 bg-green-300 rounded-tl-4xl text-center w-[50%]">
                     <u
                         >↓votre email↓<br />
-                        <textarea type="email" name="email" target="_blank"
+                        <textarea type="email" name="email" target="_blank" class="w-[50%]"
                         ></textarea>
                     </u></label
                 >
-                <label class="p-10 bg-green-300 rounded-tr-4xl text-center">
+                <label class="p-10 bg-green-300 rounded-tr-4xl text-center w-[50%]">
                     <u
                         >↓votre message↓<br />
-                        <textarea name="message" target="_blank"></textarea>
+                        <textarea name="message" target="_blank" class="w-[50%]"></textarea>
                     </u></label
                 >
             </div>
             <button
                 type="submit"
-                class="rounded-b-4xl bg-amber-500 hover:bg-amber-200"
+                class="rounded-b-4xl bg-amber-500 hover:bg-amber-200 w-[100%]"
                 target="_blank">Send</button
             >
         </form>
     </div>
     <footer class="flex justify-center align-items-end flex-col font-bold">
         <div
-            class="flex flex-row text-center justify-center space-x-100 p-10 text-[2.5rem]"
+            class="flex flex-row text-center justify-center p-10 text-[2.5rem]"
         >
             <button
                 onclick={previous}
-                class="bg-red-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-red-700"
+                class="bg-red-900 rounded-4xl p-5 mt-30 min-w-[15rem] font-extrabold hover:bg-red-700 z-10"
             >
                 ←précédent
             </button>
             <button
                 onclick={next}
-                class="bg-green-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-green-700"
+                class="bg-green-900 rounded-4xl p-5 mt-30 min-w-[15rem] font-extrabold hover:bg-green-700 z-10"
             >
                 retour←|
             </button>
