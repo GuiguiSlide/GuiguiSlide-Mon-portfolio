@@ -8,7 +8,7 @@
     }
     function linkedin() {
         window.open(
-            "https://www.linkedin.com/in/guillaume-beaufort-0b1a4a1b7/",
+            "https://www.linkedin.com/in/guillaume-beaufort-ba252932a/",
             "_blank",
         );
     }
