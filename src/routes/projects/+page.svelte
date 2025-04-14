@@ -81,13 +81,13 @@
     >
         <button
             onclick={previous}
-            class="bg-red-900 rounded-4xl p-5 mt-30 min-w-[15rem] font-extrabold hover:bg-red-700"
+            class="bg-red-900 rounded-4xl p-5 mr-5 mt-30 min-w-[15rem] font-extrabold hover:bg-red-700"
         >
             ← précédent
         </button>
         <button
             onclick={next}
-            class="bg-green-900 rounded-4xl p-5 mt-30 min-w-[15rem] font-extrabold hover:bg-green-700"
+            class="bg-green-900 rounded-4xl ml-5 p-5 mt-30 min-w-[15rem] font-extrabold hover:bg-green-700"
         >
             suivant→
         </button>
