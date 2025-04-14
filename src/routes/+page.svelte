@@ -32,7 +32,7 @@
         </div>
     </div>
     <div
-        class="flex justify-center items-center text-center text-[2rem] font-bold"
+        class="flex justify-center items-center text-center text-[2rem] font-bold bg-[rgba(0,125,0,0.5)] pb-10 pt-10 rounded-4xl"
     >
         <p>
             Bienvenue sur mon profile,<br /> je suis Guillaume Beaufort un Developpeur
@@ -45,16 +45,10 @@
         class="flex flex-row text-center justify-center space-x-100 p-10 text-[2.5rem]"
     >
         <button
-            onclick={previous}
-            class="bg-red-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-red-700"
-        >
-            ← previous
-        </button>
-        <button
             onclick={next}
             class="bg-green-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-green-700" 
         >
-            next →
+            suivant→
         </button>
     </div>
 </footer>

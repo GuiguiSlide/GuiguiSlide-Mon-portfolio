@@ -14,7 +14,7 @@
     </h1>
 </header>
 <section class="flex flex-col">
-    <div class="flex justify-center items-center flex-row bg-orange-200 rounded-4xl">
+    <div class="flex justify-center items-center flex-row bg-orange-200 rounded-t-4xl mr-5 ml-5">
         <img
             class="rounded-4rem w-[5rem] h-[5rem] m-5 mt-5 mb-10"
             alt="html"
@@ -89,7 +89,7 @@
         </a>
     </div>
     <div
-        class="flex justify-center items-center text-center text-[2rem] font-bold"
+        class="flex justify-center items-center text-center text-[2rem] font-bold bg-[rgba(220,120,255,0.5)] rounded-b-4xl mr-5 ml-5"
     >
         <p>
             sur cette pages vous pourrez decouvrir mes compétences<br />
@@ -104,13 +104,13 @@
             onclick={previous}
             class="bg-red-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-red-700"
         >
-            ← previous
+            ← précédent
         </button>
         <button
             onclick={next}
             class="bg-green-900 rounded-4xl p-5 mt-30 min-w-70 font-extrabold hover:bg-green-700"
         >
-            next →
+            suivant→
         </button>
     </div>
 </footer>
