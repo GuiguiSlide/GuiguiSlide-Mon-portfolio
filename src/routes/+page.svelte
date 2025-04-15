@@ -15,7 +15,9 @@
 </script>
 
 <header class="flex justify-center align-items-start text-[150%] fade">
-    <h1 class="bg-blue-200 rounded-2xl p-2 mt-5 mb-10 font-extrabold pl-20 pr-20">
+    <h1
+        class="bg-blue-200 rounded-2xl p-2 mt-5 mb-10 font-extrabold pl-20 pr-20"
+    >
         <u>Bienvenue sur mon Portfolio </u>
     </h1>
 </header>
@@ -35,8 +37,8 @@
         class="flex justify-center items-center text-center text-[150%] font-bold bg-[rgba(219,100,199,0.5)] pb-10 pt-10 rounded-4xl ml-20 mr-20"
     >
         <p>
-            Bienvenue sur mon profile,<br /> je suis Guillaume Beaufort un Developpeur
-            FullStack en formation au CESI de brest.,
+            Bienvenue sur mon profil,<br /> je suis Guillaume Beaufort un Développeur
+            FullStack en formation au CESI de Brest.,
         </p>
     </div>
 </section>

@@ -82,20 +82,17 @@
             alt="PHP"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
         />
-
     </div>
     <div
         class="flex justify-center items-center text-center text-[200%] font-bold bg-[rgba(220,120,255,0.5)] rounded-b-4xl mr-5 ml-5"
     >
         <p>
-            sur cette pages vous pourrez decouvrir mes compétences<br />
+            <u>Sur cette page</u>, vous pourrez découvrir mes compétences<br />
         </p>
     </div>
 </section>
 <footer class="flex justify-center align-items-end fade">
-    <div
-        class="flex flex-row text-center justify-center p-10 text-[2.5rem]"
-    >
+    <div class="flex flex-row text-center justify-center p-10 text-[2.5rem]">
         <button
             onclick={previous}
             class="bg-red-900 rounded-4xl mr-5 p-5 mt-30 min-w-[15rem] font-extrabold hover:bg-red-700"

@@ -11,7 +11,8 @@
 <div class="bg-[rgba(255,255,255,0.5)] rounded-4xl m-20 fade">
     <header class="flex justify-center align-items-start text-[3rem] fade">
         <h1 class="bg-blue-200 rounded-2xl p-2 mt-5 mb-10 font-extrabold fade">
-            <u>Mes infos </u>
+            <u>Mes infos</u>
+            <!-- ❌ espace inutile -->
         </h1>
     </header>
 
@@ -20,11 +21,13 @@
             class="flex justify-center items-center text-center text-[2rem] font-bold fade"
         >
             <p>
-                Sur cette page vous pouvez me contacter <br />
-                et avoir des information a propo de moi.<br /><br />
+                Sur cette page, vous pouvez me contacter<br />
+                et obtenir des <u>informations à propos de moi</u>.<br /><br />
+                <!-- ❌ "information a propo" => ✅ "informations à propos" -->
             </p>
         </div>
     </section>
+
     <div class="flex flex-row justify-around">
         <div class="flex flex-col items-center justify-center" target="_blank">
             <form
@@ -37,41 +40,37 @@
                     <label
                         class="p-10 bg-green-300 rounded-tl-4xl text-center w-[50%]"
                     >
-                        <u
-                            >↓votre email↓<br />
-                            <textarea
-                                type="email"
-                                name="email"
-                                target="_blank"
-                                class="w-[50%]"
+                        <u>
+                            ↓Votre email↓<br />
+                            <textarea type="email" name="email" class="w-[50%]"
                             ></textarea>
-                        </u></label
-                    >
+                        </u>
+                    </label>
                     <label
                         class="p-10 bg-green-300 rounded-tr-4xl text-center w-[50%]"
                     >
-                        <u
-                            >↓votre message↓<br />
-                            <textarea
-                                name="message"
-                                target="_blank"
-                                class="w-[50%]"
-                            ></textarea>
-                        </u></label
-                    >
+                        <u>
+                            ↓Votre message↓<br />
+                            <textarea name="message" class="w-[50%]"></textarea>
+                        </u>
+                    </label>
                 </div>
                 <button
                     type="submit"
                     class="rounded-b-4xl bg-amber-500 hover:bg-amber-200 w-[100%]"
-                    target="_blank">Send</button
                 >
+                    Envoyer <!-- ✅ "Send" → français pour cohérence -->
+                </button>
             </form>
         </div>
+
         <div class="font-bold">
-            Contact: 07 69 36 53 11<br>
-            Mail: guillaum29280.fr@gmail.com<br>
+            Contact : 07 69 36 53 11<br />
+            Mail : guillaum29280.fr@gmail.com<br />
+            <!-- ✅ espace après ":" -->
         </div>
     </div>
+
     <footer class="flex justify-center align-items-end flex-col font-bold">
         <div
             class="flex flex-row text-center justify-center p-10 text-[2.5rem]"
@@ -80,13 +79,13 @@
                 onclick={previous}
                 class="bg-red-900 rounded-4xl p-5 mr-5 mt-30 min-w-[15rem] font-extrabold hover:bg-red-700 z-10"
             >
-                ←précédent
+                ← Précédent <!-- ✅ majuscule -->
             </button>
             <button
                 onclick={next}
                 class="bg-green-900 rounded-4xl p-5 ml-5 mt-30 min-w-[15rem] font-extrabold hover:bg-green-700 z-10"
             >
-                retour←|
+                Retour → <!-- ❌ "retour←|" => ✅ "Retour →" -->
             </button>
         </div>
     </footer>
