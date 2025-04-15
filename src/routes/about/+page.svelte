@@ -15,7 +15,7 @@
 </header>
 <section class="flex flex-col fade">
     <div
-        class="flex justify-center items-center flex-row bg-orange-200 rounded-t-4xl mr-5 ml-5 max-w-[100%]"
+        class="flex justify-center items-center flex-row bg-orange-200 rounded-t-4xl mr-5 ml-5 max-w-[100%] flex-wrap"
     >
         <img
             class="rounded-4xl 3w-[2.5rem] h-[2.5rem] m-5 mt-5 mb-10"
