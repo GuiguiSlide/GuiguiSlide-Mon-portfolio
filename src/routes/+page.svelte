@@ -57,7 +57,7 @@
 
 <style>
     .photoprofil {
-        background: url("https://media.licdn.com/dms/image/v2/D4D03AQF_N2UKIIZUrg/profile-displayphoto-shrink_800_800/B4DZPZIdIkHgAg-/0/1734514693126?e=1750291200&v=beta&t=uy0reay1cNdXeYPJtiRNYxV6z6nySdHMR4pkaZz74Zk");
+        background: url("./img/photoprofil.png");
         background-size: cover;
         background-position: center;
     }
